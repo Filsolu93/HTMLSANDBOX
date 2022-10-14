@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & imput </title>
+</head>
+<body>
+    <form action="process.php">
+        <div>
+            <label for="Name">Name</label>
+            <input type="text"id="Name" name="name" value="john Doe">
+
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <imput type="email"Name="email" id="Email">
+        </div>
+        <div>
+        <label for="massage">massage</label><br>
+        <textarea name="massage" id="massage" 
+        cols="50" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="sex">sex</label>
+        <select name="sex" id="">sex>
+            <option value="male"selected>male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+        </select>
+    </div>
+    <di>
+        <label for="age">Age</label><br>
+        <input type="number" name="Age" id="age">
+
+    </di>
+<div>
+    <label for="birthdate">birthdate</label><br>
+    <input type="date" name="birthdate" id="birthdate">
+</div>
+<div>
+    <label for="membership">membership</label>
+    <input type="radio" name="membership" value="simple" id="membership"checked> simple
+    <input type="radio" name="membership" value="standard" id="membership">standard
+    <input type="radio" name="membership" value="super" id="membership">super
+</div>
+<input type="submit"value="submit">
+<!--using button tag-->
+<button type="submit">submit</button>
+<button type="reset">Reset</button>
+
+</body>
+</html>
